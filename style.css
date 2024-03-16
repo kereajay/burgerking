@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+
+}
+
+#one {
+    font-size: xx-large;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#one input {
+    margin-top: 15%;
+
+}
+
+#one #order {
+    margin-top: 15%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(249, 187, 71);
+    border: 2px solid rgb(249, 187, 71) ; 
+    font-size: large;
+    border-radius: 10px;
+}
+#two{
+    margin-top: 5%;
+}
